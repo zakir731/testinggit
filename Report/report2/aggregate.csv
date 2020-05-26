@@ -1,0 +1,6 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+http://bdlist24.com/demo/ads/ad_search,19,4170,4143,4530,4538,4613,3742,4613,0.000%,.12606,396.51,3.07
+3.TR-AD Search,19,4170,4143,4530,4538,4613,3742,4613,0.000%,.12605,396.50,3.07
+http://bdlist24.com/demo/ads/search_ad_daycare,14,2092,2063,2216,2216,2309,1775,2309,0.000%,.11889,9.23,2.56
+4.TR-Day Care,18,1627,2025,2198,2216,2309,0,2309,0.000%,.12449,7.51,2.09
+TOTAL,70,3101,3788,4438,4530,4613,0,4613,0.000%,.46441,807.42,10.15

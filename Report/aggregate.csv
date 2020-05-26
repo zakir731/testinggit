@@ -1,0 +1,11 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+http://bdlist24.com/demo/ads/subcat_data_with_ajax_one,46,606,472,696,1079,3527,388,3527,0.00%,0.15336,0.12,0.06
+http://bdlist24.com/demo/ads/subcat_1_data_with_ajax_one_one,45,904,439,516,574,21003,383,21003,2.22%,0.15552,0.21,0.07
+http://bdlist24.com/demo/ads/cat_subcat_search_with_ajax,45,611,498,647,862,3868,382,3868,0.00%,0.15547,0.08,0.07
+http://bdlist24.com/demo/ads/form_subcat_1_search_with_ajax,45,472,438,514,545,1489,380,1489,0.00%,0.15545,0.07,0.07
+http://bdlist24.com/demo/ads/ad_job_search_in_QA%20orTesting,26,12321,4681,25197,59356,59537,2558,59537,23.08%,0.0887,265.7,2.02
+http://bdlist24.com/demo/ads,20,6360,2298,24081,25424,30249,2051,30249,15.00%,0.08336,25.56,2.23
+1.TR-IT_JOB_Search,26,20334,8680,29613,86941,92904,5843,92904,26.92%,0.08677,280.6,3.91
+http://bdlist24.com/demo/ads/ad_foods_search_in_Indian%20Restaurants,16,4447,2255,4365,16133,21734,1891,21734,6.25%,0.09184,7.72,2.35
+2.TR-Foods,19,5632,4065,6604,18054,23540,1711,23540,5.26%,0.0863,6.43,2.02
+TOTAL,288,4416,536,8680,24135,59537,380,92904,6.60%,0.95988,569.91,10.78

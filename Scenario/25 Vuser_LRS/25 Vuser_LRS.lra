@@ -1,0 +1,70 @@
+﻿[Workspace]
+SessionStartTime=0
+SessionEndTime=675
+VerNo=13
+IsSummaryData=0
+TimeFormat=0
+SesLang=ENU
+ABuild=0
+DataBaseName=resl100949740DB
+DBType=1
+CurrServer=DESKTOP-MMB6NTN
+CurrUser=sa
+CurrPswd===
+StorageLoc=\\DESKTOP-MMB6NTN\Data\
+PhStorageLoc=C:\MSSQL7\Data
+LocStorageLoc=
+LocPhStorageLoc=
+WinIntSec=0
+UseNetworkMode=0
+UseParallel=1
+UseManagedIndexes=1
+UseSpecMSSQLParams=1
+NumResults=1
+
+[Data Config]
+CollectionMode=2
+IngnoreFlds=Vuser ID
+IngnoreUIFlds=VuserID
+AggSecGran=1
+TransAgg=1
+DataPointAgg=1
+WebAgg=1
+MonAgg=0
+ErrAgg=0
+FilterEdge=0
+FSartTime=0
+FEndTime=0
+
+[Result0]
+LRRID=
+ResultPath=C:\Users\13302\AppData\Local\Temp\res\res.lrr
+ResultTDPath=
+NumFilters=0
+ScenarioTimeZone=18000
+DaylightSavingSecsAddition=3600
+ScenarioStartTime=1587667913
+ScenarioEndTime=1587668588
+ResInSD=0
+WebGran=5
+FilterEdge=0
+FSartTime=0
+FEndTime=0
+TDTestID=-1
+TDRunID=-1
+IsProTuneResult=0
+Scenario Type=Manual
+Schedule Name=Schedule 1
+Mode=Scenario Scheduling
+Load Behavior=Initialize all Vusers simultaneously
+Scenario Duration=Start 25 Vusers: 4 every 00:00:03 (HH:MM:SS); Run for 00:07:00 (HH:MM:SS); Stop all Vusers: 5 every 00:00:04 (HH:MM:SS)
+NumGraphs=5
+
+[DimensionFunctions]
+DimeFuncCount=1
+DimeFuncType0=FuncFragment
+FunctionName_UI0=Think Time
+DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
+FunctionFragmentValues_UI0=-Include Think Time
+DimensionFragmentValues_UI0=!([Value]-[Think Time])!
+
